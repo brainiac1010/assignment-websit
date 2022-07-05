@@ -125,3 +125,200 @@ body {
 
 
 }
+
+/*donation planing area*/
+
+.donation-plan {
+
+    text-align: center;
+
+}
+
+
+.donation-plan h1 {
+    font-size: 75px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.donation-plan p {
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.donate-plan-body {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+/*donation planing heading and paragraph*/
+.donation-plan-card1,
+.donation-plan-card2,
+.donation-plan-card3 h1 {
+    font-size: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.donation-plan-card1,
+.donation-plan-card2,
+.donation-plan-card3 p {
+
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+/*donation planing card1*/
+.donation-plan-card1 {
+
+    width: 28%;
+    height: 350px;
+    margin-left: 30px;
+    background-color: lightblue;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*donation planing card2*/
+.donation-plan-card2 {
+
+    width: 28%;
+    height: 350px;
+    margin-left: 30px;
+    background-color: lightcoral;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*donation planing card3*/
+.donation-plan-card3 {
+
+    width: 28%;
+    height: 350px;
+    margin-left: 30px;
+    background-color: lightgoldenrodyellow;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/*contribute-area*/
+.contribute-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+
+
+}
+
+.half-contribute1,
+.half-contribute2 {
+    width: 30%;
+
+}
+
+.half-contribute1 img {
+    width: 100%;
+
+    border-radius: 20px;
+}
+
+.half-contribute2 img {
+    width: 100%;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+
+
+.contribute-text1 {
+
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 30px;
+
+}
+
+.contribute-text1,
+.contribute-text2 p {
+
+    margin-bottom: 30px;
+}
+
+.contribute-button1,
+.contribute-button2 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 18px;
+    background-image: linear-gradient(to right, rgb(24, 189, 211), rgb(9, 117, 189));
+    padding: 13px 23px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 50px gray;
+    text-align: center;
+
+}
+
+.contribute-text2 {
+
+    font-size: 18px;
+    font-family: 'Merriweather Sans', sans-serif;
+    padding: 30px;
+
+    margin-left: 30px;
+
+}
+
+
+/*subscribe*/
+
+.subscribe {
+    width: 40%;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 180px;
+    padding-top: 100px;
+    margin: 0 auto;
+
+
+}
+
+.subscribe input {
+
+    font-size: 22px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.subscribe a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: 'Merriweather Sans', sans-serif;
+    background-image: linear-gradient(to right, rgb(24, 189, 211), rgb(9, 117, 189));
+    padding: 6px 11px;
+    border-radius: 5px;
+
+    text-align: center;
+
+}
+
+/*footer*/
+.footer-section {
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: black;
+    color: firebrick;
+    font-size: 25px;
+    padding: 30px;
+    margin-top: 100px;
+}
+
+.footer-section p {
+
+    color: white;
+    font-weight: 100;
+    font-family: 'Merriweather Sans', sans-serif;
+}
